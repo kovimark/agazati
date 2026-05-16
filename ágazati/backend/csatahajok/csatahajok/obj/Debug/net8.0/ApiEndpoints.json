@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "csatahajok.Controllers.CsataController",
+    "Method": "Resztvevok",
+    "RelativePath": "api/Csata/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.HajoController",
+    "Method": "All",
+    "RelativePath": "api/Hajo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.HajoController",
+    "Method": "ByName",
+    "RelativePath": "api/Hajo/ByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.HajoController",
+    "Method": "TobbtablasGet",
+    "RelativePath": "api/Hajo/kimenet/{csatanev}/{hajonev}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "csatanev",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hajonev",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.HajoController",
+    "Method": "TobbtablasGetDTOval",
+    "RelativePath": "api/Hajo/kimenetDTO/{csatanev}/{hajonev}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "csatanev",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hajonev",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.KimenetController",
+    "Method": "UjKimenet",
+    "RelativePath": "api/Kimenet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "csatahajok.Models.Kimenet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.KimenetController",
+    "Method": "KimenetTorles",
+    "RelativePath": "KimenetTorles/{csata}/{hajonev}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "csata",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hajonev",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

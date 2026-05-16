@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kovim\\Desktop\\cmeghajto\\hegyekCLI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D70C5FA-C947-4465-828D-30728D289A9B}|hegyekWPF\\hegyekWPF.csproj|c:\\users\\kovim\\desktop\\cmeghajto\\hegyekcli\\hegyekwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D70C5FA-C947-4465-828D-30728D289A9B}|hegyekWPF\\hegyekWPF.csproj|solutionrelative:hegyekwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D70C5FA-C947-4465-828D-30728D289A9B}|hegyekWPF\\hegyekWPF.csproj|c:\\users\\kovim\\desktop\\cmeghajto\\hegyekcli\\hegyekwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D70C5FA-C947-4465-828D-30728D289A9B}|hegyekWPF\\hegyekWPF.csproj|solutionrelative:hegyekwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 326,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kovim\\Desktop\\cmeghajto\\hegyekCLI\\hegyekWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "hegyekWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kovim\\Desktop\\cmeghajto\\hegyekCLI\\hegyekWPF\\MainWindow.xaml",
+              "RelativeToolTip": "hegyekWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-04T07:36:01.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kovim\\Desktop\\cmeghajto\\hegyekCLI\\hegyekWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "hegyekWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kovim\\Desktop\\cmeghajto\\hegyekCLI\\hegyekWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "hegyekWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T07:36:00.776Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.csproj.AssemblyReference.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF_MarkupCompile.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF_MarkupCompile.lref
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.deps.json
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.runtimeconfig.json
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.exe
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.exe
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\Program.cs
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyek.csv
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.deps.json
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.runtimeconfig.json
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.pdb
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.pdb
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.g.resources
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.AssemblyInfoInputs.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.AssemblyInfo.cs
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.csproj.Up2Date
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\refint\hegyekWPF.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.pdb
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.genruntimeconfig.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\ref\hegyekWPF.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.deps.json
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.runtimeconfig.json
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.exe
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.exe
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\Program.cs
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyek.csv
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.deps.json
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.runtimeconfig.json
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekWPF.pdb
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\bin\Debug\net9.0-windows\hegyekCLI.pdb
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.csproj.AssemblyReference.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF_MarkupCompile.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF_MarkupCompile.lref
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.g.resources
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.AssemblyInfoInputs.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.AssemblyInfo.cs
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.csproj.CoreCompileInputs.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.csproj.Up2Date
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\refint\hegyekWPF.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.pdb
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\hegyekWPF.genruntimeconfig.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekWPF\obj\Debug\net9.0-windows\ref\hegyekWPF.dll

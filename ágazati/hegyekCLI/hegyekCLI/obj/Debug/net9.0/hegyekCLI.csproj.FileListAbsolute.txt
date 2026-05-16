@@ -1,0 +1,32 @@
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.exe
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\Program.cs
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyek.csv
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.deps.json
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.runtimeconfig.json
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.pdb
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.AssemblyInfoInputs.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.AssemblyInfo.cs
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.csproj.CoreCompileInputs.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\refint\hegyekCLI.dll
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.pdb
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.genruntimeconfig.cache
+C:\Users\Kovács Márk\source\repos\hegyekCLI\hegyekCLI\obj\Debug\net9.0\ref\hegyekCLI.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.exe
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\Program.cs
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyek.csv
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.deps.json
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.runtimeconfig.json
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\bin\Debug\net9.0\hegyekCLI.pdb
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.AssemblyInfoInputs.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.AssemblyInfo.cs
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.csproj.CoreCompileInputs.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\refint\hegyekCLI.dll
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.pdb
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\hegyekCLI.genruntimeconfig.cache
+C:\Users\kovim\Desktop\cmeghajto\hegyekCLI\hegyekCLI\obj\Debug\net9.0\ref\hegyekCLI.dll

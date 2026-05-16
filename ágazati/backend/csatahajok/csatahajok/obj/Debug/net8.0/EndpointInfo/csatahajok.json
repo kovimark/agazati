@@ -1,0 +1,269 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "csatahajok",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Csata/{name}": {
+      "get": {
+        "tags": [
+          "Csata"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hajo": {
+      "get": {
+        "tags": [
+          "Hajo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hajo/kimenet/{csatanev}/{hajonev}": {
+      "get": {
+        "tags": [
+          "Hajo"
+        ],
+        "parameters": [
+          {
+            "name": "csatanev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hajo/kimenetDTO/{csatanev}/{hajonev}": {
+      "get": {
+        "tags": [
+          "Hajo"
+        ],
+        "parameters": [
+          {
+            "name": "csatanev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hajo/ByName/{name}": {
+      "get": {
+        "tags": [
+          "Hajo"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kimenet": {
+      "post": {
+        "tags": [
+          "Kimenet"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Kimenet"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Kimenet"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Kimenet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KimenetTorles/{csata}/{hajonev}": {
+      "delete": {
+        "tags": [
+          "Kimenet"
+        ],
+        "parameters": [
+          {
+            "name": "csata",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Csatum": {
+        "type": "object",
+        "properties": {
+          "nev": {
+            "type": "string",
+            "nullable": true
+          },
+          "kezdes": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "befejezes": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "kimenets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Kimenet"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Hajo": {
+        "type": "object",
+        "properties": {
+          "nev": {
+            "type": "string",
+            "nullable": true
+          },
+          "osztaly": {
+            "type": "string",
+            "nullable": true
+          },
+          "felavatva": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "agyukSzama": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kaliber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vizkiszoritas": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Kimenet": {
+        "type": "object",
+        "properties": {
+          "hajo": {
+            "type": "string",
+            "nullable": true
+          },
+          "csata": {
+            "type": "string",
+            "nullable": true
+          },
+          "eredmeny": {
+            "type": "string",
+            "nullable": true
+          },
+          "csataNavigation": {
+            "$ref": "#/components/schemas/Csatum"
+          },
+          "hajoNavigation": {
+            "$ref": "#/components/schemas/Hajo"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
