@@ -27,6 +27,43 @@
   },
   {
     "ContainingType": "csatahajok.Controllers.HajoController",
+    "Method": "HajoModosit",
+    "RelativePath": "api/Hajo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "csatahajok.Models.Hajo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.HajoController",
+    "Method": "HajoModositv2",
+    "RelativePath": "api/Hajo/{hajonev}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "csatahajok.Models.Hajo",
+        "IsRequired": true
+      },
+      {
+        "Name": "hajonev",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.HajoController",
     "Method": "ByName",
     "RelativePath": "api/Hajo/ByName/{name}",
     "HttpMethod": "GET",
@@ -114,6 +151,32 @@
       },
       {
         "Name": "hajonev",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csatahajok.Controllers.KimenetController",
+    "Method": "KimenetTorles",
+    "RelativePath": "KimenetTorlesKoddal/{csata}/{hajonev}/{uid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "csata",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hajonev",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "uid",
         "Type": "System.String",
         "IsRequired": true
       }

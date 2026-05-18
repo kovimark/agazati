@@ -40,6 +40,8 @@ namespace csatahajok.Controllers
             }
         }
 
+        
+
         [HttpDelete("/KimenetTorles/{csata}/{hajonev}")] // Több változó kérése url-ben.
         public IActionResult KimenetTorles(string csata, string hajonev) //Ekkor minden használni kívánt változót meg kell adni.
         {
@@ -58,6 +60,41 @@ namespace csatahajok.Controllers
                     cx.SaveChanges(); // Nem aszinkron, így elég a sima SaveChanges().
                     return Ok("Sikeres törlés.");
 
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(400, $"Hiba a trölés közben. \n {ex.Message}");
+            }
+        }
+
+        //A feladat kérhet olyat, hogy csak egy megadott kód után végezzük el az adott lekérdezést. Ilyenkor a főprogramban létre kell hozni, !Main-en belül! egy public static string = "valami", hogy itt tudjunk rá hivatkozni.
+
+        [HttpDelete("/KimenetTorlesKoddal/{csata}/{hajonev}/{uid}")] // Több változó kérése url-ben.
+        public IActionResult KimenetTorles(string csata, string hajonev, string uid) //Ekkor minden használni kívánt változót meg kell adni.
+        {
+            try
+            {
+                using (var cx = new CsatahajokContext())
+                {
+                    if (uid == Program.UID) //Viszgáljuk, hogy a paraméterben megadott azonosító megegyezik-e az eltárolttal. Ha igen, szokásos Delete, ha nem, hibaüzenet.
+                    {
+                        var torolhajo = cx.Kimenets.FirstOrDefault(k => k.Hajo == hajonev && k.Csata == csata);
+                        if (torolhajo == null)
+                        {
+                            return StatusCode(404, $"Nincs megfelelő csata vagy hajó: {csata}, {hajonev}");
+                        }
+
+
+                        cx.Kimenets.Remove(torolhajo); // Törlés esetén Remove.
+                        cx.SaveChanges(); // Nem aszinkron, így elég a sima SaveChanges().
+                        return Ok("Sikeres törlés.");
+
+                    }
+                    else
+                    {
+                        return StatusCode(400, "Nincs jogosultsága törölni.");
+                    }
                 }
             }
             catch (Exception ex)

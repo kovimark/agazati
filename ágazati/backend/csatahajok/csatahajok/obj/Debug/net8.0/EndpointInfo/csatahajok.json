@@ -37,6 +37,35 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Hajo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hajo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hajo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hajo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Hajo/kimenet/{csatanev}/{hajonev}": {
@@ -121,6 +150,47 @@
         }
       }
     },
+    "/api/Hajo/{hajonev}": {
+      "put": {
+        "tags": [
+          "Hajo"
+        ],
+        "parameters": [
+          {
+            "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hajo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hajo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Hajo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Kimenet": {
       "post": {
         "tags": [
@@ -168,6 +238,44 @@
           },
           {
             "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/KimenetTorlesKoddal/{csata}/{hajonev}/{uid}": {
+      "delete": {
+        "tags": [
+          "Kimenet"
+        ],
+        "parameters": [
+          {
+            "name": "csata",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hajonev",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "uid",
             "in": "path",
             "required": true,
             "schema": {

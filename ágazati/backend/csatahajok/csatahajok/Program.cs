@@ -6,6 +6,7 @@ namespace csatahajok
     public class Program
     {
 
+        public static string UID = "abcd"; // Itt kell a Deletehez szükséges kódot megadni.
 
         /*
           https://localhost:7074/api/Csata/Resztvevok/{name}

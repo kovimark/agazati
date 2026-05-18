@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\controllers\\kimenetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\controllers\\kimenetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\models\\kimenet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\models\\kimenet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\controllers\\csatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\controllers\\csatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\controllers\\hajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\controllers\\hajocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\controllers\\csatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\controllers\\csatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\models\\kimenet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|solutionrelative:csatahajok\\models\\kimenet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BE99D76-E847-4DE1-99BD-7F653B63869F}|csatahajok\\csatahajok.csproj|c:\\users\\orosz natalia\\desktop\\csatahajok\\csatahajok\\dtos\\kimenetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,44 +54,42 @@
               "RelativeToolTip": "csatahajok\\DTOs\\KimenetDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T15:49:20.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T15:49:20.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Kimenet.cs",
               "DocumentMoniker": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Models\\Kimenet.cs",
               "RelativeDocumentMoniker": "csatahajok\\Models\\Kimenet.cs",
-              "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Models\\Kimenet.cs*",
-              "RelativeToolTip": "csatahajok\\Models\\Kimenet.cs*",
+              "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Models\\Kimenet.cs",
+              "RelativeToolTip": "csatahajok\\Models\\Kimenet.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAwwCoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T10:19:26.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T10:19:26.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "KimenetController.cs",
               "DocumentMoniker": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Controllers\\KimenetController.cs",
               "RelativeDocumentMoniker": "csatahajok\\Controllers\\KimenetController.cs",
-              "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Controllers\\KimenetController.cs",
-              "RelativeToolTip": "csatahajok\\Controllers\\KimenetController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwDkAAABWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Controllers\\KimenetController.cs*",
+              "RelativeToolTip": "csatahajok\\Controllers\\KimenetController.cs*",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T10:14:29.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CsataController.cs",
               "DocumentMoniker": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Controllers\\CsataController.cs",
               "RelativeDocumentMoniker": "csatahajok\\Controllers\\CsataController.cs",
               "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Controllers\\CsataController.cs",
               "RelativeToolTip": "csatahajok\\Controllers\\CsataController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T09:58:36.374Z",
               "EditorCaption": ""
@@ -116,20 +114,20 @@
               "RelativeDocumentMoniker": "csatahajok\\Controllers\\HajoController.cs",
               "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Controllers\\HajoController.cs",
               "RelativeToolTip": "csatahajok\\Controllers\\HajoController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAqwEIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAqwMQAAAC8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T09:27:01.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Program.cs",
               "RelativeDocumentMoniker": "csatahajok\\Program.cs",
               "ToolTip": "C:\\Users\\Orosz Natalia\\Desktop\\csatahajok\\csatahajok\\Program.cs*",
               "RelativeToolTip": "csatahajok\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T09:08:04Z",
               "EditorCaption": ""

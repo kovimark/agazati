@@ -147,5 +147,92 @@ namespace csatahajok.Controllers
                 return StatusCode(400, $"Hiba a művelet végrehajtása közben. \n {ex.Message}"); // Catch, hasonló hibaüzenet.
             }
         }
+
+        //Update-ek. Kétféle módja van, vagy url-ben kérünk id-t, nevet, valamit, vagy a Post-ban már látott dto-val keressük meg a hajót. Az update egy GetId és Post egyben.
+
+        [HttpPut] // Put. Első módszer, dto-ból szerzünk információt a hajóról, ilyenkor az url-be nem kerül semmi.
+        public IActionResult HajoModosit([FromBody] Hajo dto) // A Post-ban használt FromBody itt is erősen ajánlott, hiszen így automatikusan megkapjuk azokat az adatokat, amit elvár az osztály. Ebben a módszerben nem kell mást paraméter.
+        {
+            try
+            {
+                using (var cx = new CsatahajokContext())
+                {
+                    var kivalasztottHajo = cx.Hajos.FirstOrDefault(h=>h.Nev == dto.Nev); // A dto-ban beírt névvel azonosítjuk a hajót. Mivel módosítunk, ezért ismernünk kell azt a hajót, amit szerkeszteni szeretnénk. Ebben az esetben, amikor a hajó neve az egyéni azonosító akkor lehet szidni az adatbázisos kollégát. Hiszen, vagy csinálunk egy DTO-t, vagy nem lehet használni ezt a fajta Put-ot. Miért: ha paraméterként kapott dto-ban a nevet átírjuk mert szeretnénk módosítani, akkor nem fogja megtalálni a backend a keresett hajót, mert a paraméterként kapott dto-ból azonosítja a módosítandó hajót. Ebben az adatbázisban így hajó nevet, soha nem fogunk tudni módosítani ezzel a Put típussal.
+
+                    if(kivalasztottHajo == null)
+                    {
+                        return NotFound("Nem található a keresett hajó."); // Ha nincs hajó, hibaüzenet.
+                    }
+
+                    // Majd egyesével megváltoztatjuk a kiválasztott hajó adatait, a dto-ban kapottra. Ezt lehet máshogy is, de ez a legegyszerűbb módja.
+
+                    kivalasztottHajo.Osztaly = dto.Osztaly;
+                    kivalasztottHajo.Felavatva = dto.Felavatva;
+                    kivalasztottHajo.AgyukSzama = dto.AgyukSzama;
+                    kivalasztottHajo.Kaliber = dto.Kaliber;
+                    kivalasztottHajo.Vizkiszoritas = dto.Vizkiszoritas;
+
+
+
+
+
+                    cx.Hajos.Update(kivalasztottHajo); // Frissítjük a Hajos listában a hajónkat. Mivel Put így Update.
+
+                    
+
+                    cx.SaveChanges(); // Mentjük a módosítást.
+
+                    return Ok("Sikeres mentés."); // Ha minden jó, üzenet. Ha a feladat kéri, itt is lehet értéket visszaadni. Projektben például, telefonfeltöltés után az új telefon azonosítója van visszaküldve, nem egy üzenet.
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(400, $"Hiba rögzítés közben.\n{ex.Message}");
+            }
+        }
+
+        //EZ NEM FOG MŰKÖDNI EZZEL AZ ADATBÁZISSAL! De ha normális lenne, akkor így kell url-ben megadott azonosítóval módosítani.
+
+        [HttpPut("{hajonev}")] // Put. Második módszer, url-ből azonosítjuk a hajót.
+        public IActionResult HajoModositv2([FromBody] Hajo dto, string hajonev) // Paramétereink a hajónévvel bővülnek, mivel url-ben bekértük. Ha az adatbázis olyan lenne, lehetne itt id.
+        {
+            try
+            {
+                using (var cx = new CsatahajokContext())
+                {
+                    var kivalasztottHajo = cx.Hajos.FirstOrDefault(h => h.Nev == hajonev); // Az url-ben megadott hajónévvel azonosítjuk a hajót. Így fogjuk tudni a hajó nevét is módosítani.
+
+                    if (kivalasztottHajo == null)
+                    {
+                        return NotFound("Nem található a keresett hajó."); // Ha nincs hajó, hibaüzenet.
+                    }
+
+                    // Majd egyesével megváltoztatjuk a kiválasztott hajó adatait, a dto-ban kapottra, már a névvel kiegészítve. Ezt lehet máshogy is, de ez a legegyszerűbb módja.
+
+                    kivalasztottHajo.Nev = dto.Nev;
+                    kivalasztottHajo.Osztaly = dto.Osztaly;
+                    kivalasztottHajo.Felavatva = dto.Felavatva;
+                    kivalasztottHajo.AgyukSzama = dto.AgyukSzama;
+                    kivalasztottHajo.Kaliber = dto.Kaliber;
+                    kivalasztottHajo.Vizkiszoritas = dto.Vizkiszoritas;
+
+
+
+
+
+                    cx.Hajos.Update(kivalasztottHajo); // Frissítjük a Hajos listában a hajónkat. Mivel Put így Update.
+
+
+
+                    cx.SaveChanges(); // Mentjük a módosítást.
+
+                    return Ok("Sikeres mentés."); // Ha minden jó, üzenet. Ha a feladat kéri, itt is lehet értéket visszaadni. Projektben például, telefonfeltöltés után az új telefon azonosítója van visszaküldve, nem egy üzenet.
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(400, $"Hiba rögzítés közben.\n{ex.Message}");
+            }
+        }
     }
 }
